@@ -5,9 +5,70 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Lenas Webpage</title>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+		<link rel="manifest" href="/site.webmanifest" />
 		<link rel="stylesheet" href="./output.css" />
 	</head>
 	<body>
-		<h1 class="text-center text-5xl bg-red-500">Under Construction</h1>
+		<div class="flex">
+			<!-- Nav Section -->
+			<nav
+				class="bg-emerald-300 w-screen flex items-center justify-between md:h-screen md:w-fit text-center px-6 md:block"
+			>
+				<!-- Nav Header -->
+				<div class="flex items-center my-2 md:flex-col md:my-8">
+					<div class="flex items-center md:flex-col">
+						<img
+							class="rounded-full mx-auto w-20 h-20 md:w-28 md:h-28 object-cover"
+							src="../img/Snapchat-633416127.jpg"
+							alt="Picture of Lena Sterz"
+						/>
+						<p class="font-bold text-2xl ml-2">Lena Sterz</p>
+					</div>
+					<div class="flex-col hidden md:flex">
+						<div class="flex my-2">
+							<img class="w-5 mr-1" src="../img/icons/email-outline.svg" />
+							<p class="text-stone-600 text-sm">lena.sterz98@gmail.com</p>
+						</div>
+						<div class="flex my-2">
+							<img class="w-5 mr-1" src="../img/icons/cellphone.svg" />
+							<p class="text-stone-600 text-sm">0151-20167925</p>
+						</div>
+					</div>
+				</div>
+				<!-- Buttons -->
+				<div class="my-8 hidden md:block">
+					<a
+						href="#"
+						class="border-white text-white border-2 px-3 py-1 rounded font-bold hover:text-emerald-300 hover:bg-white hover:border-emerald-300"
+					>
+						Certificates
+					</a>
+				</div>
+
+				<!-- Social Links -->
+				<div class="justify-evenly text-center my-8 hidden md:flex">
+					<a href="https://github.com/lena-s98"
+						><img class="w-8" src="../img/icons/icons8-github.svg"
+					/></a>
+					<a href="https://www.xing.com/profile/Lena_Sterz/cv"
+						><img class="w-8" src="../img/icons/icons8-xing.svg"
+					/></a>
+					<a href="https://www.linkedin.com/in/lena-s-119715249/"
+						><img class="w-8" src="../img/icons/icons8-linkedin-circled.svg"
+					/></a>
+				</div>
+				<!-- Burger Menu -->
+				<div class="md:hidden">
+					<a href="#" id="burger"
+						><img class="w-8" src="../img/icons/menu.svg"
+					/></a>
+				</div>
+			</nav>
+			<!-- Main Section -->
+			<main class="bg-purple-300"></main>
+		</div>
 	</body>
 </html>
