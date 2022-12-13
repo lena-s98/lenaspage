@@ -722,10 +722,6 @@ video {
   font-weight: 700;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
-
 .text-stone-600 {
   --tw-text-opacity: 1;
   color: rgb(87 83 78 / var(--tw-text-opacity));
