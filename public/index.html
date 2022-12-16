@@ -26,51 +26,53 @@
 		<link rel="stylesheet" href="./output.css" />
 	</head>
 	<body>
-		<div class="flex flex-col md:flex-row">
+		<div class="flex flex-col lg:flex-row">
 			<!-- Nav Section -->
 			<nav
-				class="relative bg-sky-200 w-screen flex items-center justify-between text-center px-6 md:block md:h-screen md:w-fit"
+				class="relative bg-sky-200 w-screen flex items-center justify-between text-center px-6 lg:block lg:h-screen lg:w-1/5"
 			>
 				<!-- Burger Menu -->
-				<div class="absolute m-4 right-0 md:hidden">
+				<div class="absolute m-4 right-0 lg:hidden">
 					<a href="#" id="burger"
 						><img class="w-8" src="./img/icons/menu.svg"
 					/></a>
 				</div>
 				<!-- Nav Header -->
-				<div class="md:h-full md:flex md:flex-col md:justify-between">
+				<div class="lg:h-full lg:flex lg:flex-col lg:justify-between">
 					<div>
-						<div class="flex items-center my-3 md:flex-col md:my-8">
-							<div class="flex justify-center items-center md:flex-col">
+						<div class="flex items-center my-3 lg:flex-col lg:my-8">
+							<div class="flex justify-center items-center lg:flex-col">
 								<img
-									class="rounded-full mx-auto w-20 h-20 md:w-28 md:h-28 object-cover"
+									class="rounded-full mx-auto w-20 h-20 lg:w-28 lg:h-28 object-cover"
 									src="./img/other/Snapchat-633416127.jpg"
 									alt="Picture of Lena Sterz"
 								/>
-								<p class="font-bold text-2xl ml-2 md:ml-0">Lena Sterz</p>
+								<p class="font-bold text-2xl ml-2 lg:ml-0">Lena Sterz</p>
 							</div>
-							<div class="flex-col hidden md:flex">
-								<div class="flex m-2 md:flex-col md:items-center">
+							<div class="flex-col hidden lg:flex">
+								<div class="flex m-2 lg:items-center">
 									<img class="w-5 mr-1" src="./img/icons/email-outline.svg" />
-									<p class="text-stone-600 text-sm">lena.sterz98@gmail.com</p>
+									<a href="#" class="text-black text-sm hover:opacity-50"
+										>Contact Me</a
+									>
 								</div>
 							</div>
 						</div>
 						<!-- Buttons -->
-						<div class="my-8 md:my-8 hidden md:block md:text-sm" id="buttons">
+						<div class="my-8 lg:my-8 hidden lg:block lg:text-sm" id="buttons">
 							<div
-								class="flex flex-col items-start justify-center md:items-center"
+								class="flex flex-col items-start justify-center lg:items-center"
 							>
 								<a
 									href="./downloads/Abschlusszertifikat Web-Entwicklung ILS.pdf"
 									download
-									class="mb-4 w-full border-white text-white border-2 px-3 py-1 rounded font-bold hover:text-sky-200 hover:bg-white hover:border-sky-200"
+									class="mb-4 w-full border-black text-black border-2 px-3 py-1 rounded font-bold hover:text-sky-200 hover:bg-white"
 								>
 									Download Certificate
 								</a>
 								<a
 									href="#"
-									class="w-full border-white text-white border-2 px-3 py-1 rounded font-bold hover:text-sky-200 hover:bg-white hover:border-sky-200"
+									class="w-full border-black text-black border-2 px-3 py-1 rounded font-bold hover:text-sky-200 hover:bg-white"
 								>
 									Download Resume
 								</a>
@@ -78,7 +80,7 @@
 						</div>
 					</div>
 					<!-- Social Links --><!-- Nav Footer-->
-					<div class="justify-evenly text-center my-8 hidden md:flex">
+					<div class="justify-evenly text-center my-8 hidden lg:flex">
 						<a
 							class="hover:scale-125"
 							target="_blank"
@@ -103,7 +105,7 @@
 			<!-- Main Section -->
 			<main class="bg-slate-100 w-full p-6">
 				<!-- About Me Section -->
-				<section class="text-center md:text-start md:w-2/3">
+				<section class="text-center mx-auto lg:text-start lg:w-2/3">
 					<p class="font-bold text-xl p-2">About Me:</p>
 					<p class="bg-white rounded-md p-2">
 						Hi I'm <span class="font-bold">Lena Sterz</span> I'm from Germany
@@ -125,43 +127,45 @@
 					</p>
 				</section>
 				<!-- My Skills Section -->
-				<section class="text-center mt-5 md:text-start md:w-2/3">
+				<section class="text-center mx-auto mt-5 lg:text-start lg:w-2/3">
 					<p class="font-bold text-xl p-2">The Tech I Use:</p>
-					<div class="py-4 flex justify-evenly flex-wrap bg-white rounded-md">
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+					<div
+						class="py-4 flex justify-center flex-wrap bg-white rounded-md lg:justify-evenly"
+					>
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-html-5.svg" />
 							<figcaption>HTML5</figcaption>
 						</figure>
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-css3.svg" />
 							<figcaption>CSS3</figcaption>
 						</figure>
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-javascript.svg" />
 							<figcaption>JavaScript</figcaption>
 						</figure>
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-tailwind-css.svg" />
 							<figcaption>TailwindCSS</figcaption>
 						</figure>
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-bootstrap.svg" />
 							<figcaption>Bootstrap</figcaption>
 						</figure>
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-git.svg" />
 							<figcaption>GIT</figcaption>
 						</figure>
-						<figure class="flex flex-col items-center scale-75 md:scale-100">
+						<figure class="flex flex-col items-center scale-75 lg:scale-90">
 							<img src="./img/icons/icons8-github.svg" />
 							<figcaption>Github</figcaption>
 						</figure>
 					</div>
 				</section>
 				<!-- Projects Section -->
-				<section class="text-center mt-5 md:text-start">
+				<section class="text-center mx-auto mt-5 lg:text-start lg:w-2/3 h-12">
 					<p class="font-bold text-xl p-2">My Projects:</p>
-					<div class="bg-white flex rounded-md scroll md:w-2/3"></div>
+					<div class="bg-white flex rounded-md"></div>
 				</section>
 				<!-- Testimonials Section -->
 				<div></div>
